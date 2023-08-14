@@ -1,0 +1,55 @@
+.navbar-phone {
+    width: 49%;
+    padding-top: 0.5%;
+}
+
+.logo{
+    width: 20%;
+}
+
+.red-pattern {
+    position: relative;
+    z-index: 0;
+    width: 100rem;
+    height: 4rem;
+}
+
+.phone {
+    display: flex;
+    justify-content: space-around;
+}
+
+.up-div {
+    display: flex;
+    justify-content: space-between;
+}
+
+.logo-text {
+    margin: 0;
+    font-family: monospace
+}
+
+.tabs {
+    display: flex;
+    justify-content: center;
+}
+
+.tabs>a {
+    margin: 1rem;
+    margin-left: 2rem;
+    margin-right: 3rem;
+    font-size: 20px;
+}
+
+.tabs>a:hover {
+    cursor: pointer;
+    transition: 0.2s;
+}
+
+.contact-button {
+    margin-top: 0.8rem;
+}
+
+.is-active {
+    color: red;
+}

@@ -1,0 +1,108 @@
+#feedback-form {
+  width: 50%;
+  background-color: #fcfcfc;
+  padding: 20px 50px 40px;
+  box-shadow: 1px 4px 10px 1px #aaa;
+  font-family: sans-serif;
+  transition: transform 700ms;
+}
+
+.form-container {
+  margin-top: 2%;
+  display: flex;
+  align-items: stretch;
+}
+
+#feedback-form:hover {
+  transform: scale(1.05);
+}
+
+.image-left,
+.image-right {
+  flex: 1;
+  background-size: cover;
+  background-repeat: no-repeat;
+  min-height: 400px;
+}
+
+.image-left {
+  background-image: url('../../side-image.jpg');
+}
+
+.image-right {
+  background-image: url('../../side-image.jpg');
+}
+
+.form-content {
+  flex: 2;
+  padding: 20px;
+}
+
+
+#feedback-form * {
+  box-sizing: border-box;
+}
+
+#feedback-form h2 {
+  text-align: center;
+  margin-bottom: 30px;
+}
+
+#feedback-form input {
+  margin-bottom: 15px;
+}
+
+#feedback-form input[type=text] {
+  display: block;
+  height: 32px;
+  padding: 6px 16px;
+  width: 100%;
+  border: none;
+  background-color: #f3f3f3;
+}
+
+#feedback-form label {
+  color: #777;
+  font-size: 0.8em;
+}
+
+#feedback-form input[type=checkbox] {
+  float: left;
+}
+
+#feedback-form #feedback-phone {
+  transition: .3s;
+}
+
+#feedback-form button[type=submit] {
+  display: block;
+  margin: 20px auto 0;
+  width: 150px;
+  height: 40px;
+  border-radius: 25px;
+  border: none;
+  color: #eee;
+  font-weight: 700;
+  box-shadow: 1px 4px 10px 1px #aaa;
+
+
+  background-color: red;
+
+  -webkit-transition: background-color 1000ms linear;
+  -moz-transition: background-color 1000ms linear;
+  -o-transition: background-color 1000ms linear;
+  -ms-transition: background-color 1000ms linear;
+  transition: background-color 1000ms linear;
+  transition: color 1000ms linear;
+}
+
+#feedback-form button:hover {
+  background-color: white;
+  transition: 800ms;
+  color: black;
+}
+
+.services {
+  display: flex;
+  grid-column: 4;
+}

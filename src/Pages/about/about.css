@@ -1,0 +1,83 @@
+/* Updated CSS for the About section */
+
+/* Container for the entire About section */
+.about-container {
+    display: flex;
+    flex-direction: column;
+    margin: 2% 0;
+    margin-top: 0;
+    position: relative;
+}
+
+/* Individual section within the About container */
+.about-section {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 4%;
+}
+
+/* Left column containing text */
+.about-text {
+    flex: 1;
+    margin-right: 4%;
+}
+
+.about-text>div>h2 {
+    font-size: 30px;
+    font-weight: bold;
+    font-family: Baskerville;
+    margin-bottom: 10px;
+}
+
+.about-text>div>p {
+    font-size: 15px;
+    font-family: Verdana;
+    margin-bottom: 10px;
+}
+
+.about-contact-button {
+    font-weight: bold;
+}
+
+.about-contact-button:hover {
+    color: white;
+    background-color: red;
+    transition: 0.3s;
+}
+
+/* Right column containing images */
+.about-photo {
+    flex: 1;
+}
+
+.about-photo img {
+    width: 100%;
+    height: auto;
+
+    border-radius: 8px;
+}
+
+
+.about-cap {
+    margin-bottom: 3rem;
+    position: relative;
+    text-align: center;
+    color: white;
+
+}
+
+.about-cap-image {
+    width: 100rem;
+    height: 12rem;
+    border-radius: 0 0 7px 7px;
+}
+
+.about-cap-centered {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    font-size: 30px;
+    font-family: cursive;
+}
